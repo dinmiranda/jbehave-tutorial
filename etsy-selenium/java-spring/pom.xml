@@ -225,7 +225,7 @@
             <id>embeddable-stories</id>
             <phase>integration-test</phase>
             <configuration>
-              <!--<systemProperties>
+              <systemProperties>
                 <property>
                   <name>browser</name>
                   <value>chrome</value>
@@ -234,7 +234,7 @@
                   <name>webdriver.chrome.driver</name>
                   <value>/home/dad/opt/webdriver/chromedriver</value>
                 </property>
-              </systemProperties>-->
+              </systemProperties>
               <includes>
                 <include>${stories}</include>
               </includes>
