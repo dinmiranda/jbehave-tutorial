@@ -9,13 +9,13 @@
   <description>JBehave stories verifying functionality of Etsy.com using Java and Spring</description>
 
   <properties>
-    <jbehave.core.version>4.1-SNAPSHOT</jbehave.core.version>
+    <jbehave.core.version>4.8.3</jbehave.core.version>
     <jbehave.web.version>3.6-SNAPSHOT</jbehave.web.version>
     <jbehave.site.version>3.3</jbehave.site.version>
     <fluent.selenium.version>1.14.5</fluent.selenium.version>
     <selenium.version>2.48.2</selenium.version>
     <ignore.failures>true</ignore.failures>
-    <meta.filter></meta.filter>
+    <meta.filter/>
     <threads>1</threads>
     <skip>false</skip>
     <stories>**/EtsyDotComStories.java</stories>
@@ -149,7 +149,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -162,7 +162,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -238,7 +238,7 @@
               <includes>
                 <include>${stories}</include>
               </includes>
-              <excludes />
+              <excludes/>
               <ignoreFailureInStories>${ignore.failures}</ignoreFailureInStories>
               <ignoreFailureInView>${ignore.failures}</ignoreFailureInView>
               <threads>${threads}</threads>
@@ -294,7 +294,7 @@
     <profile>
       <id>stable</id>
       <properties>
-        <jbehave.core.version>3.9.1</jbehave.core.version>
+        <jbehave.core.version>4.8.3</jbehave.core.version>
         <jbehave.web.version>3.6-beta-2</jbehave.web.version>
       </properties>
     </profile>
@@ -324,7 +324,7 @@
                   <includes>
                     <include>${stories}</include>
                   </includes>
-                  <excludes />
+                  <excludes/>
                 </configuration>
                 <goals>
                   <goal>run-stories-with-annotated-embedder</goal>
