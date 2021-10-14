@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.seleniumhq.selenium.fluent</groupId>
       <artifactId>fluent-selenium</artifactId>
-      <version>1.6.3</version>
+      <version>1.18</version>
     </dependency>
   </dependencies>
 
